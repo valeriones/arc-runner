@@ -4,7 +4,8 @@ on:
 
 jobs:
   Explore-GitHub-Actions:
-    runs-on: arc-runner-set
+    #runs-on: arc-runner-set
+    runs-on: self-hosted
     steps:
     - run: echo "This job uses your scale set runners on K8S!"
     - run: echo "Happy coding FREEEE"
